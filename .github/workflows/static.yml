@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MPS Tech Savvy</title>
+    <style>
+        body {
+            background-color: #000016;
+            color: #0ff;
+            font-family: 'Orbitron', sans-serif;
+            text-align: center;
+            background-image: url('https://source.unsplash.com/1600x900/?futuristic-city,ai,cyberpunk,robot');
+            background-size: cover;
+            background-blend-mode: multiply;
+        }
+        .header {
+            font-size: 3em;
+            padding: 20px;
+            text-transform: uppercase;
+            color: #0ff;
+            text-shadow: 0 0 15px #0ff;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .nav a {
+            color: #0ff;
+            text-decoration: none;
+            font-size: 1.2em;
+            border: 1px solid #0ff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 15px;
+            margin: 20px auto;
+            width: 70%;
+            box-shadow: 0 0 20px #0ff;
+            color: #fff;
+        }
+        img {
+            width: 250px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 0 15px #0ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">MPS Tech Savvy</div>
+    
+    <div class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#ai-tech">AI & Tech</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact Us</a>
+    </div>
+
+    <div id="home" class="container">
+        <h2>Welcome to MPS Tech Savvy</h2>
+        <p>We provide cutting-edge tech solutions to help businesses thrive.</p>
+    </div>
+
+    <div id="about" class="container">
+        <h3>About Us</h3>
+        <p>MPS Tech Savvy is an online company offering business solutions and tech innovations. We operate 100% online with no physical offices.</p>
+    </div>
+
+    <div id="services" class="container">
+        <h3>Our Services & Pricing</h3>
+        
+        <h4>Company Registration & Compliance</h4>
+        <p>Company Registration: R550</p>
+        <p>SARS Tax Returns: R300</p>
+        <p>VAT Registration: R800</p>
+        <p>Tax Clearance: R150</p>
+        <p>CIPC & COIDA: From R120</p>
+
+        <h4>Tech Solutions</h4>
+        <p>Data Analysis: From R800</p>
+        <p>Networking Solutions: From R1,000</p>
+        <p>Technical Support: From R500/hr</p>
+
+        <h4>Branding & Marketing</h4>
+        <p>Logo Design: From R500</p>
+        <p>Website & Google My Business: From R2,000</p>
+        <p>Digital Marketing: From R1,500/month</p>
+
+        <h4>Personal Services</h4>
+        <p>CV Revamp: R150</p>
+        <p>BBBEE Certificate: R100</p>
+        <p>PSIRA Renewal: R125</p>
+
+        <h4>WhatsApp Chat Box Design</h4>
+        <p>Design & Set Up WhatsApp Chat Feature: R500</p>
+        <p>WhatsApp Business Setup & Customization: R1,000</p>
+    </div>
+
+    <div id="ai-tech" class="container">
+        <h3>AI & Tech Innovations</h3>
+        <p>Explore our AI-powered solutions, automation, and chatbot development.</p>
+        <img src="/mnt/data/A_futuristic_AI-themed_poster_featuring_a_glowing_.png" alt="AI Poster">
+    </div>
+
+    <div id="gallery" class="container">
+        <h3>Gallery</h3>
+        <p>Check out our futuristic tech projects and designs.</p>
+        <img src="https://source.unsplash.com/400x400/?futuristic-robot" alt="Futuristic Robot">
+        <img src="https://source.unsplash.com/400x400/?neon-tech" alt="Neon Tech">
+    </div>
+
+    <div id="contact" class="container">
+        <h3>Contact Us</h3>
+        <p>📞 Contact Mbali on 062 476 2900</p>
+        <a href="https://wa.me/6204762900" class="whatsapp-button">Message Us on WhatsApp</a>
+    </div>
+</body>
+</html>
